@@ -1,5 +1,5 @@
 /* 
- * Simple dimensional weight calculator, based off project from 'C Programming - A Modern Approach
+ * Simple dimensional weight calculator, based off project from 'C Programming - A Modern Approach'
  */
 
 #include <stdio.h>
@@ -7,7 +7,7 @@
 int main(void)
 {
     int height = 8;
-    int length = 12;
+    int length = 13;
     int width = 10;
     int volume = height * length * width;
     int weight = (volume + 165) / 166;
